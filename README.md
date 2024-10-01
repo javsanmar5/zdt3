@@ -13,8 +13,8 @@ To install and run this project, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/zdt3_javsanmar5.git
-    cd zdt3_javsanmar5
+    git clone https://github.com/javsanmar5/zdt3.git
+    cd zdt3
     ```
 
 2. Create a virtual environment:
@@ -38,9 +38,4 @@ python Algorithm.py
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 ## Authors
-- [Your Name](https://github.com/yourusername)
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Feel free to customize this README further based on your specific needs and additional details about your project.
+- [Your Name](https://github.com/javsanmar5)
