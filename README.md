@@ -31,7 +31,7 @@ To install and run this project, follow these steps:
 ## Usage
 To run the algorithm, execute the following command:
 ```sh
-python Algorithm.py
+python ./src/main.py
 ```
 
 ## Contributing
