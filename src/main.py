@@ -5,8 +5,8 @@ from utils.screen_plot import plot
 
 def main() -> None:
     
-    ITERATIONS = 1000
-    INDIVIDUALS = 30
+    ITERATIONS = 150
+    INDIVIDUALS = 80
 
     zdt3_algorithm = Algorithm(ITERATIONS, INDIVIDUALS)
     output = zdt3_algorithm.run()

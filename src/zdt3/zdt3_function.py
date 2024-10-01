@@ -2,7 +2,7 @@ import math
 
 
 def zdt3(x: list) -> list:
-    return [_f1(x), _f2(x)]
+    return (_f1(x), _f2(x))
 
 def _f1(x: list) -> float:
     return x[0]
