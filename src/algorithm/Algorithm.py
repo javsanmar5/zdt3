@@ -90,7 +90,9 @@ class Algorithm:
                     if current_g_te < self.subproblems[j].solution_fitness:
                         self.subproblems[j].set_best_solution(y)
                         self.subproblems[j].set_solution_fitness(current_g_te)
-                acum_f.append(F_y)
+                print(self.subproblems[1].solution_fitness)
+                print(self.subproblems[1].lambdas)
+                acum_f.append(zdt3(self.subproblems[i].best_solution))
             iteration += 1
             
         return acum_f

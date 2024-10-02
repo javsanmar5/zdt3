@@ -1,8 +1,8 @@
 def write_txt(to_write: list) -> None:
     with open ("./logs/output.txt", "w") as file:
         for line in to_write:
-            for f in line:
-                file.write(str(f) + " ")
+            for datum in line:
+                file.write(str(datum) + " ")
             file.write("\n")
     return
 
