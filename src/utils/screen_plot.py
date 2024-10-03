@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from utils.log import load_txt
+from utils.log import load_log_out
 
 # def plot() -> None:
 #     data = load_txt(path="./logs/output.txt")
@@ -22,8 +22,8 @@ from utils.log import load_txt
 
 # -------------------  COLOR CHANGES -------------------
 
-def plot() -> None:
-    data = load_txt(path="./logs/output.txt")
+def plot(filepath: str) -> None:
+    data = load_log_out(path=filepath)
 
     f1_values = [row[0] for row in data]
     f2_values = [row[1] for row in data]
@@ -39,6 +39,6 @@ def plot() -> None:
     plt.ylabel('f2(x)')
     plt.title('Scatter plot of f1(x) vs f2(x)')
 
-    plt.colorbar(label='Progresión en el fichero')  
+    plt.colorbar(label='Progression through file')      
     plt.grid(True)
     plt.show()

@@ -6,7 +6,6 @@ class Subproblem:
         self.best_solution = None
         self.solution_fitness = None
         self.neighborhood = None
-        
             
     # -------------------  SETTERS -------------------            
             
@@ -25,7 +24,7 @@ class Subproblem:
     # ----------------- REPRESENTATION -----------------
 
     def __str__(self) -> str:
-        return f"Subproblem(lambdas={self.lambdas}, best_solution={self.best_solution}, neighborhood={self.neighborhood})"
+        return f"Subproblem(lambdas={self.lambdas}, best_solution={self.best_solution},solution fitness: {self.solution_fitness} , neighborhood={self.neighborhood})"
 
     def __repr__(self) -> str:
-        return f"Subproblem(lambdas={self.lambdas}, best_solution={self.best_solution}, neighborhood={self.neighborhood})"
+        return f"Subproblem(lambdas={self.lambdas}, best_solution={self.best_solution},solution fitness: {self.solution_fitness} , neighborhood={self.neighborhood})"
