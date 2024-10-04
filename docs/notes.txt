@@ -1,0 +1,2 @@
+DE MOMENTO PRIMERA ADICIÓN, a la hora de crear un nuevo individuo comparar 
+tanto mutant, como trial vector con el vector anterior
