@@ -17,11 +17,11 @@ def main() -> None:
     
     MINE_ONE="./logs/output.out"
     ZDT3_PROF_ONE="./data/results/prof/zdt3/EVAL4000/P40G100/zdt3_all_popmp40g100_seed01.out"
-    CF6_PROF_ONE="./data/results/prof/cf6/EVAL4000/P40G100/cf6_4d_all_popmp40g100_seed01.out"
+    CF6_PROF_ONE="./data/results/prof/cf6_4d/EVAL4000/P40G100/cf6_4d_all_popmp40g100_seed01.out"
     OPTIMAL_PATH=["./data/zdt3_optimal_pareto.dat", "./data/cf6_optimal_pareto.dat"]
 
     PARAMETERS = {
-        "n": 16, # Dimensions {4, 16}, by default: 4. Just works for cf6. For zdt3, it is 30
+        "n": 4, # Dimensions {4, 16}, by default: 4. Just works for cf6. For zdt3, it is 30
         "T": int(0.25 * 50),
         "MR": 1 / 40,           
         "SIG": 20,
