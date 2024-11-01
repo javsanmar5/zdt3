@@ -1,2 +1,14 @@
 DE MOMENTO PRIMERA ADICIÓN, a la hora de crear un nuevo individuo comparar 
 tanto mutant, como trial vector con el vector anterior
+
+
+
+CONSTRAINTS:
+    Revisar adaptativo y dinamico
+
+
+
+mencionar la modificacion de la inicializacion de lambdas de tal forma que no 
+tenemos un lambda (0,1) ni uno (1,0) para no despreciar una de las f en ninguno
+de los dos casos
+    

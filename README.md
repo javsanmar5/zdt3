@@ -33,9 +33,15 @@ To run the algorithm, execute the following command:
 ```sh
 python ./src/main.py
 ```
+To run the metric software:
+```sh
+cd bin
+./metrics
+Follow the instructions
+```
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 ## Authors
-- [Your Name](https://github.com/javsanmar5)
+- Javier Santos (https://github.com/javsanmar5)
