@@ -14,3 +14,7 @@ def _f2(x: list) -> float:
 
 def _g(x: list) -> float:
     return 1 + 9 * sum(x[1:]) / (len(x) - 1)
+
+
+def constraints_zdt3(x: list) -> float:
+    return 0

@@ -4,9 +4,10 @@ from matplotlib.lines import Line2D
 from utils.log import load_log_out
 
 
-def plot(filepath: str, optimal_path: str) -> None:
+def plot(filepath: str, optimal_path: str, individuals = 40) -> None:
     
     data = load_log_out(path=filepath)
+    print(len(data))
     optimal = load_log_out(path=optimal_path)
 
     f1_values = [row[0] for row in data]
@@ -41,7 +42,7 @@ def plot(filepath: str, optimal_path: str) -> None:
     legend_elements = [
         Line2D([0], [0], marker='o', color='w', markerfacecolor='red', markersize=8, label='Data'),
         Line2D([0], [0], marker='o', color='w', markerfacecolor='green', markersize=8, label='Optimal'),
-        Line2D([0], [0], marker='o', color='w', markerfacecolor='black', markersize=8, label='With Restriction')
+        Line2D([0], [0], marker='o', color='w', markerfacecolor='black', markersize=8, label='Constraints violated')
     ]
     
     plt.xlabel('f1(x)')
