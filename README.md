@@ -3,6 +3,9 @@
 ## Description
 `zdt3_javsanmar5` is a Python project that resolves the ZDT3 problem using an evolutionary algorithm. The ZDT3 problem is a well-known multi-objective optimization problem used for benchmarking optimization algorithms.
 
+## Disclaimer
+The content of this repository is substantial due to the inclusion of all the data used for analysis and metric extraction.
+
 ## Features
 - Implements an evolutionary algorithm to solve the ZDT3 problem.
 - Includes mutation and neighborhood update mechanisms.
